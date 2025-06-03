@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	border: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: "Poppins", sans-serif;
+}
+body {
+	background-color: #f7fafd;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 48px;
+	margin: 48px;
+}
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	padding: 12px 24px;
+}
+.nav-div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.div-logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 12px;
+	background-color: #f7fafd;
+}
+.nav-info {
+	display: none;
+}
+.logo-para {
+	font-weight: 600;
+	font-size: 14px;
+}
+h1 {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 100%;
+	color: #38b031;
+	padding-bottom: 1rem;
+}
+h1::before {
+	content: "Flower Power";
+}
+.answer-para {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 100%;
+	color: #223344;
+	padding-bottom: 1rem;
+	width: 80%;
+}
+.info-para {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 100%;
+	width: 98%;
+	color: #223344;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	padding: 24px;
+	background-color: #ffffff;
+}
+label {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 8px 96px 8px 24px;
+	width: 100%;
+	border: #ebebeb 2px solid;
+	font-weight: 700;
+	color: #5e6778;
+	border-radius: 999px;
+	font-size: 16px;
+}
+input[type="date"] {
+	color: #b7b7b7;
+	font-weight: 500;
+	font-size: 12px;
+}
+input[type="date"]:focus {
+	outline: none;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+	display: none;
+	-webkit-appearance: none;
+}
+.btn-search {
+	margin-top: 24px;
+	text-align: center;
+	color: #f2f4fe;
+	background-color: #38b031;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 12px 0;
+	width: 100%;
+	border-radius: 8px;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 48px;
+	margin: 40px 48px;
+}
+section {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 2fr;
+	border-radius: 16px;
+	background-color: #fff;
+}
+.img-plantOne {
+	height: 100%;
+}
+.second-part {
+	padding: 8px 12px;
+}
+.div-img-star {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 4px 8px;
+	border-radius: 8px;
+	gap: 10px;
+}
+.one {
+	background-color: #7b1b0a;
+	width: 12%;
+}
+.two {
+	background-color: #0a4c7b;
+	width: 22%;
+}
+.three {
+	background-color: #3f774a;
+	width: 32%;
+}
+h2 {
+	padding: 18px 0;
+	font-size: 24px;
+	font-weight: 800;
+	color: #1c202b;
+}
+.div-info {
+	display: flex;
+	flex-direction: row;
+	gap: 18px;
+	margin-bottom: 18px;
+}
+.div-floraison {
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+	align-items: center;
+}
+.para-floraison {
+	font-size: 16px;
+	font-weight: 600;
+	color: #b7b7b7;
+}
+.date-para {
+	color: #1c202b;
+	font-size: 16px;
+	font-weight: 800;
+}
+.para-div-grid {
+	color: #5e6778;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 100%;
+	width: 99%;
+	padding-bottom: 18px;
+}
+.div-classi {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 44px;
+}
+.f-c {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 18px;
+	padding: 2px 0;
+}
+.f-c-p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	gap: 4.5px;
+	padding: 2px 0;
+}
+.para-classi,
+span {
+	font-weight: 600;
+	font-size: 16px;
+	color: #b7b7b7;
+}
+span {
+	font-weight: 800;
+}
+
+@media screen and (min-width: 376px) {
+	form {
+		flex-direction: row;
+		width: 100%;
+		justify-content: center;
+	}
+	label {
+		width: 15%;
+	}
+	h1 {
+		padding-bottom: 16px;
+	}
+	h1::before {
+		content: "FlowerPower";
+	}
+	.nav-div {
+		justify-content: space-between;
+	}
+	.nav-info {
+		display: flex;
+		flex-direction: row;
+		gap: 40px;
+	}
+	.para-info {
+		font-weight: 700;
+		font-size: 14px;
+		color: #1c202b;
+	}
+	.br {
+		border-bottom: 2px solid #263fa9;
+	}
+	.answer-para {
+		width: 100%;
+		font-size: 36px;
+	}
+	.info-para {
+		width: 100%;
+		font-size: 24px;
+	}
+	.div-label {
+		flex-direction: row;
+	}
+	.btn-search {
+		margin-top: 0;
+	}
+	section {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		grid-template-rows: 1fr;
+		border-radius: 16px;
+		background-color: #fff;
+	}
+	.one {
+		width: 7%;
+	}
+	.two {
+		width: 13%;
+	}
+	.three {
+		width: 20%;
+	}
+}
+
+@media screen and (min-width: 961px) {
+	form {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.info-para {
+		width: 60%;
+		line-height: 150%;
+	}
+	.btn-search {
+		width: 10%;
+	}
+	.para-div-grid {
+		width: 100%;
+	}
+	.one {
+		width: 3.2%;
+	}
+	.two {
+		width: 6%;
+	}
+	.three {
+		width: 8%;
+	}
+}
